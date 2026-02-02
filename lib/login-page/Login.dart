@@ -103,7 +103,7 @@ class _LoginPageState extends State<LoginPage> {
               color: Colors.blueGrey[50],
               child: Center(
                 child: Image.asset(
-                  'assets/images/data_illustration.png', // Replace with your actual image path
+                  'assets/3.jpg', // Replace with your actual image path
                   width: 400,
                   fit: BoxFit.contain,
                 ),
