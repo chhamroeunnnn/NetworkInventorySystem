@@ -34,6 +34,21 @@ class _NetworkInventoryPageState extends State<NetworkInventoryPage> {
               padding: const EdgeInsets.all(24),
               child: Column(
                 children: [
+                  // WELCOME BANNER
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.symmetric(vertical: 16),
+                    child: const Text(
+                      "Welcome to Network Inventory System",
+                      style: TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black87,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+
                   // SEARCH BAR
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 12),
